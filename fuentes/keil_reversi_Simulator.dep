@@ -1,0 +1,271 @@
+Dependencies for Project 'keil_reversi', Target 'Simulator': (DO NOT MODIFY !)
+F (.\Startup.s)(0x655355F1)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"-o .\startup.o --depend .\startup.d)
+F (.\SWI.s)(0x6553737A)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"-o .\swi.o --depend .\swi.d)
+F (.\Retarget.c)(0x6523E93C)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\rt_misc.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+F (.\main.c)(0x65775FE5)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210x.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (planificador.h)(0x657C0244)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+I (hello_world.h)(0x6579F463)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (alarmas.h)(0x6579F234)
+I (power.h)(0x657C18FE)
+I (botones.h)(0x6579F3C2)
+I (int_externas_hal.h)(0x6579F579)
+I (juego.h)(0x657BFFEE)
+I (linea_serie_drv.h)(0x657C192E)
+I (linea_serie_hal.h)(0x657C0207)
+I (utils.h)(0x657C0470)
+I (tablero.h)(0x65761D8D)
+I (celda.h)(0x65761D8D)
+I (config_conecta_K.h)(0x650021B4)
+I (visualizar.h)(0x657C04CE)
+I (watchdog.h)(0x657C05BD)
+I (test.h)(0x657755E5)
+F (.\timer0_driver.c)(0x657C0308)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\timer0_driver.o --omf_browse .\timer0_driver.crf --depend .\timer0_driver.d)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+F (.\timer0_driver.h)(0x657C038C)()
+F (.\timer0_hal.c)(0x657C03C6)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\timer0_hal.o --omf_browse .\timer0_hal.crf --depend .\timer0_hal.d)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+F (.\timer0_hal.h)(0x657C0424)()
+F (.\evento.h)(0x6579F3DF)()
+F (.\fifo.c)(0x6577528C)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\fifo.o --omf_browse .\fifo.crf --depend .\fifo.d)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+F (.\fifo.h)(0x655C8C53)()
+F (.\gpio.c)(0x654A15CC)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (gpio.h)(0x654A1511)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+F (.\gpio.h)(0x654A1511)()
+F (.\gpio_reserva.h)(0x6536360E)()
+F (.\io_reserva.h)(0x656E3396)()
+F (.\planificador.c)(0x657829A0)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\planificador.o --omf_browse .\planificador.crf --depend .\planificador.d)
+I (planificador.h)(0x657C0244)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+I (hello_world.h)(0x6579F463)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (alarmas.h)(0x6579F234)
+I (power.h)(0x657C18FE)
+I (botones.h)(0x6579F3C2)
+I (int_externas_hal.h)(0x6579F579)
+I (juego.h)(0x657BFFEE)
+I (linea_serie_drv.h)(0x657C192E)
+I (linea_serie_hal.h)(0x657C0207)
+I (utils.h)(0x657C0470)
+I (tablero.h)(0x65761D8D)
+I (celda.h)(0x65761D8D)
+I (config_conecta_K.h)(0x650021B4)
+I (visualizar.h)(0x657C04CE)
+I (watchdog.h)(0x657C05BD)
+F (.\planificador.h)(0x657C0244)()
+F (.\hello_world.c)(0x6579F3FA)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\hello_world.o --omf_browse .\hello_world.crf --depend .\hello_world.d)
+I (hello_world.h)(0x6579F463)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+I (alarmas.h)(0x6579F234)
+F (.\hello_world.h)(0x6579F463)()
+F (.\power.c)(0x657C025D)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\power.o --omf_browse .\power.crf --depend .\power.d)
+I (power.h)(0x657C18FE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+F (.\power.h)(0x657C18FE)()
+F (.\alarmas.c)(0x6579F1F9)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\alarmas.o --omf_browse .\alarmas.crf --depend .\alarmas.d)
+I (alarmas.h)(0x6579F234)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (evento.h)(0x6579F3DF)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+F (.\alarmas.h)(0x6579F234)()
+F (.\int_externas_hal.c)(0x6579F4AC)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\int_externas_hal.o --omf_browse .\int_externas_hal.crf --depend .\int_externas_hal.d)
+I (int_externas_hal.h)(0x6579F579)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+F (.\int_externas_hal.h)(0x6579F579)()
+F (.\botones.c)(0x6579F2FF)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\botones.o --omf_browse .\botones.crf --depend .\botones.d)
+I (botones.h)(0x6579F3C2)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (evento.h)(0x6579F3DF)
+I (int_externas_hal.h)(0x6579F579)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+F (.\botones.h)(0x6579F3C2)()
+F (.\visualizar.c)(0x657C0482)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\visualizar.o --omf_browse .\visualizar.crf --depend .\visualizar.d)
+I (visualizar.h)(0x657C04CE)
+I (gpio.h)(0x654A1511)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+F (.\visualizar.h)(0x657C04CE)()
+F (.\test.c)(0x657795C9)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\test.o --omf_browse .\test.crf --depend .\test.d)
+I (test.h)(0x657755E5)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (fifo.h)(0x655C8C53)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (system_calls.h)(0x657C02DD)
+I (evento.h)(0x6579F3DF)
+I (alarmas.h)(0x6579F234)
+I (botones.h)(0x6579F3C2)
+I (int_externas_hal.h)(0x6579F579)
+I (watchdog.h)(0x657C05BD)
+F (.\test.h)(0x657755E5)()
+F (.\watchdog.c)(0x657C04F6)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\watchdog.o --omf_browse .\watchdog.crf --depend .\watchdog.d)
+I (watchdog.h)(0x657C05BD)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (system_calls.h)(0x657C02DD)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+F (.\watchdog.h)(0x657C05BD)()
+F (.\system_calls.c)(0x657C001A)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\system_calls.o --omf_browse .\system_calls.crf --depend .\system_calls.d)
+I (system_calls.h)(0x657C02DD)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (fifo.h)(0x655C8C53)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (evento.h)(0x6579F3DF)
+F (.\system_calls.h)(0x657C02DD)()
+F (.\linea_serie_hal.c)(0x657C01B8)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\linea_serie_hal.o --omf_browse .\linea_serie_hal.crf --depend .\linea_serie_hal.d)
+I (linea_serie_hal.h)(0x657C0207)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (system_calls.h)(0x657C02DD)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+F (.\linea_serie_hal.h)(0x657C0207)()
+F (.\linea_serie_drv.c)(0x657C010B)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\linea_serie_drv.o --omf_browse .\linea_serie_drv.crf --depend .\linea_serie_drv.d)
+I (linea_serie_drv.h)(0x657C192E)
+I (system_calls.h)(0x657C02DD)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (linea_serie_hal.h)(0x657C0207)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (gpio.h)(0x654A1511)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (evento.h)(0x6579F3DF)
+I (utils.h)(0x657C0470)
+F (.\linea_serie_drv.h)(0x657C192E)()
+F (.\juego.c)(0x657BFEBA)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\juego.o --omf_browse .\juego.crf --depend .\juego.d)
+I (juego.h)(0x657BFFEE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (linea_serie_drv.h)(0x657C192E)
+I (system_calls.h)(0x657C02DD)
+I (C:\Programas\keilvision5\programa\ARM\INC\Philips\LPC210X.H)(0x559D3D78)
+I (linea_serie_hal.h)(0x657C0207)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (gpio.h)(0x654A1511)
+I (gpio_reserva.h)(0x6536360E)
+I (io_reserva.h)(0x656E3396)
+I (evento.h)(0x6579F3DF)
+I (utils.h)(0x657C0470)
+I (timer0_driver.h)(0x657C038C)
+I (timer0_hal.h)(0x657C0424)
+I (fifo.h)(0x655C8C53)
+I (tablero.h)(0x65761D8D)
+I (celda.h)(0x65761D8D)
+I (config_conecta_K.h)(0x650021B4)
+I (alarmas.h)(0x6579F234)
+I (tablero_test.h)(0x650048F8)
+F (.\juego.h)(0x657BFFEE)()
+F (.\config_conecta_K.h)(0x650021B4)()
+F (.\conecta_K_hay_linea.s)(0x6565B90F)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"-o .\conecta_k_hay_linea.o --depend .\conecta_k_hay_linea.d)
+F (.\tablero.c)(0x656E32AC)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\tablero.o --omf_browse .\tablero.crf --depend .\tablero.d)
+I (config_conecta_K.h)(0x650021B4)
+I (tablero.h)(0x65761D8D)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+I (celda.h)(0x65761D8D)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+F (.\tablero.h)(0x65761D8D)()
+F (.\tablero_test.h)(0x650048F8)()
+F (.\celda.h)(0x65761D8D)()
+F (.\utils.c)(0x657C0452)(-c --cpu ARM7TDMI -D__EVAL -g -O0-IC:\Programas\keilvision5\programa\ARM\RV31\INC-IC:\Programas\keilvision5\programa\ARM\CMSIS\Include-IC:\Programas\keilvision5\programa\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\utils.o --omf_browse .\utils.crf --depend .\utils.d)
+I (utils.h)(0x657C0470)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\inttypes.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Programas\keilvision5\programa\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+F (.\utils.h)(0x657C0470)()
