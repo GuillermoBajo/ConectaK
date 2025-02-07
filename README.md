@@ -1,26 +1,25 @@
-# Implementación de Juego ConectaK en Sistemas Embebidos
+# Connect K Game Implementation in Embedded Systems
 
-El proyecto desarrolla un sistema de juego estratégico (Conecta K) para sistemas embebidos, utilizando diversos periféricos y temporizadores para interactuar con el procesador y el usuario. El sistema cuenta con una interfaz gráfica de entrada/salida agradable a través de UART0, botones configurados como líneas de interrupción externa, y un planificador de eventos eficiente.
+The project develops a strategic game system (Connect K) for embedded systems, using various peripherals and timers to interact with the processor and the user. The system features a user-friendly input/output graphical interface via UART0, buttons configured as external interrupt lines, and an efficient event scheduler.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Lenguaje de programación C** para el desarrollo de los módulos y control de periféricos.
-- **Controlador de interrupciones (VIC)** para manejar eventos específicos y controlar el flujo del programa.
-- **Temporizadores y Watchdog** para medir tiempos, generar retardos precisos, y restablecer el procesador en caso de mal funcionamiento.
-- **GPIO** para simular dispositivos como botones y LEDs, proporcionando interfaces de entrada y salida.
-- **Planificador de eventos** para gestionar eventos del sistema y reducir el consumo de energía.
+- **C Programming Language** for developing modules and controlling peripherals.
+- **Interrupt Controller (VIC)** for handling specific events and controlling the program flow.
+- **Timers and Watchdog** to measure time, generate precise delays, and reset the processor in case of malfunction.
+- **GPIO** for simulating devices like buttons and LEDs, providing input and output interfaces.
+- **Event Scheduler** to manage system events and reduce energy consumption.
 
-## Funcionalidades Clave
+## Key Features
 
-- **Interacción con periféricos** como temporizadores, botones, y UART0.
-- **Gestión de eventos** mediante una cola de eventos FIFO y planificador para desencolar y procesar eventos.
-- **Reducción del consumo energético** con modos de suspensión y reactivación del procesador.
-- **Llamadas al sistema** para activar/desactivar interrupciones IRQ y FIQ, y otras operaciones críticas.
-- **Diseño modular** de módulos presentados a través de interfaces definidas en archivos de cabecera (.h).
+- **Interaction with peripherals** such as timers, buttons, and UART0.
+- **Event management** through a FIFO event queue and scheduler to dequeue and process events.
+- **Energy consumption reduction** with sleep modes and processor reactivation.
+- **System calls** to enable/disable IRQ and FIQ interrupts, and other critical operations.
+- **Modular design** of modules presented through interfaces defined in header files (.h).
 
-## Diseño del Sistema
+## System Design
 
-- La implementación del autómata del juego garantiza la adecuada ejecución y coordinación de los diversos componentes del sistema.
-- El sistema opera en modos de usuario y supervisor, utilizando llamadas SWI para realizar operaciones de gestión del sistema.
-- El enfoque modular permite abstracción de bajo nivel, facilitando la interacción con el programa principal y permitiendo una mayor escalabilidad y mantenimiento del sistema.
-
+- The implementation of the game's automaton ensures proper execution and coordination of the system's various components.
+- The system operates in user and supervisor modes, using SWI calls to perform system management operations.
+- The modular approach allows low-level abstraction, facilitating interaction with the main program and enabling greater scalability and system maintainability.
